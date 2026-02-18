@@ -101,46 +101,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Bilcant",
+    title: "NLP Term Paper",
     description:
-      "I lead a team to develop a RPG game simulating the Campus Life of Bilkent University for a course project",
-    tags: ["Java", "LibGDX"],
-    imageUrl: bilcant,
-  },
-  {
-    title: "ToGather",
-    description:
-      "Co-Founded an event based app that utilizes geolocation for dynamic showcase of nearby events. Developed the mobile app.",
-    tags: ["Flutter", "Firebase", "Dart", "Python", "FastAPI", "React", "Google Maps API", "PostgreSQL"],
-    imageUrl: togather,
-  },
-  {
-    title: "VR Circuit Simulator",
-    description:
-      "Worked on a unity based virtual reality game that simulated the breadboard circuitry dynamicly.",
-    tags: ["Unity", "C#"],
-    imageUrl: vr,
-  },
-  {
-    title: "Bilart",
-    description:
-      "Developed a semi-ORM like backend architecture that took api requests and translated it direclty to raw SQL for our Database course for fun.",
-    tags: ["Python", "FastAPI", "Postgres", "SQL"],
-    imageUrl: bilart,
-  },
-  {
-    title: "Campus Connect",
-    description:
-      "CampusConnect is a social media platform for Bilkent University students. It enables effective management of lost & found items, borrowings, secondhand sales, and donations across the campus.",
-    tags: ["Flutter", "Dart"],
-    imageUrl: campus_connect,
-  },
-  {
-    title: "Yolla",
-    description:
-      "Worked fullstack on our capstone project that sugested the optimal cargo firm for any package to be sent from location A to B in Turkey.",
-    tags: ["Python", "FastAPI", "React", "Google Maps API", "PostgreSQL"],
-    imageUrl: yolla,
+      "This paper examines the diachronic path of the Persian loanwords in Turkish following their persistence through language reforms and semantic shift away from their etymological opposites.",
+    tags: ["Word Embeddings", "FastText", "Optuna"],
+    imageUrl: nlp,
   },
   {
     title: "Nobodies",
@@ -150,11 +115,46 @@ export const projectsData = [
     imageUrl: nobodies,
   },
   {
-    title: "NLP Term Paper",
+    title: "Yolla",
     description:
-      "This paper examines the diachronic path of the Persian loanwords in Turkish following their persistence through language reforms and semantic shift away from their etymological opposites.",
-    tags: ["Word Embeddings", "FastText", "Optuna"],
-    imageUrl: nlp,
+      "Worked fullstack on our capstone project that sugested the optimal cargo firm for any package to be sent from location A to B in Turkey.",
+    tags: ["Python", "FastAPI", "React", "Google Maps API", "PostgreSQL"],
+    imageUrl: yolla,
+  },
+  {
+    title: "Campus Connect",
+    description:
+      "CampusConnect is a social media platform for Bilkent University students. It enables effective management of lost & found items, borrowings, secondhand sales, and donations across the campus.",
+    tags: ["Flutter", "Dart"],
+    imageUrl: campus_connect,
+  },
+  {
+    title: "Bilart",
+    description:
+      "Developed a semi-ORM like backend architecture that took api requests and translated it direclty to raw SQL for our Database course for fun.",
+    tags: ["Python", "FastAPI", "Postgres", "SQL"],
+    imageUrl: bilart,
+  },
+  {
+    title: "VR Circuit Simulator",
+    description:
+      "Worked on a unity based virtual reality game that simulated the breadboard circuitry dynamicly.",
+    tags: ["Unity", "C#"],
+    imageUrl: vr,
+  },
+  {
+    title: "ToGather",
+    description:
+      "Co-Founded an event based app that utilizes geolocation for dynamic showcase of nearby events. Developed the mobile app.",
+    tags: ["Flutter", "Firebase", "Dart", "Python", "FastAPI", "React", "Google Maps API", "PostgreSQL"],
+    imageUrl: togather,
+  },
+  {
+    title: "Bilcant",
+    description:
+      "I lead a team to develop a RPG game simulating the Campus Life of Bilkent University for a course project",
+    tags: ["Java", "LibGDX"],
+    imageUrl: bilcant,
   },
 ] as const;
 
