@@ -173,7 +173,7 @@ export const projectsData: ProjectProps[] = [
     imageUrl: bilcant,
     url: "https://github.com/Sardter/Bilcan-t",
   },
-] as const;
+];
 
 export const skillsData = [
   "JavaScript",
