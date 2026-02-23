@@ -10,6 +10,7 @@ import campus_connect from "@/public/campus_connect.jpeg"
 import bilart from "@/public/bilart.jpeg"
 import nlp from "@/public/nlp_paper.png"
 import nobodies from "@/public/nobodies.jpeg"
+import { StaticImageData } from "next/image";
 
 export const links = [
   {
@@ -98,15 +99,23 @@ export const experiencesData = [
 ] as const;
 
 
+export type ProjectProps = {
+  title: string;
+  description: string;
+  tags: readonly string[];
+  imageUrl: StaticImageData;
+  url?: string | undefined;
+};
 
-export const projectsData = [
+
+export const projectsData: ProjectProps[] = [
   {
     title: "NLP Term Paper",
     description:
       "This paper examines the diachronic path of the Persian loanwords in Turkish following their persistence through language reforms and semantic shift away from their etymological opposites.",
     tags: ["Word Embeddings", "FastText", "Optuna"],
     imageUrl: nlp,
-    url: null,
+    url: undefined,
   },
   {
     title: "Nobodies",
@@ -114,7 +123,7 @@ export const projectsData = [
       "My passion project. A deep CRPG set in an arcane-punk setting. Ongoing.",
     tags: ["Unreal", "C++"],
     imageUrl: nobodies,
-    url: null,
+    url: undefined,
   },
   {
     title: "Yolla",
@@ -146,7 +155,7 @@ export const projectsData = [
       "Worked on a unity based virtual reality game that simulated the breadboard circuitry dynamicly.",
     tags: ["Unity", "C#"],
     imageUrl: vr,
-    url: null,
+    url: undefined,
   },
   {
     title: "ToGather",
