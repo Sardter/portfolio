@@ -106,6 +106,7 @@ export const projectsData = [
       "This paper examines the diachronic path of the Persian loanwords in Turkish following their persistence through language reforms and semantic shift away from their etymological opposites.",
     tags: ["Word Embeddings", "FastText", "Optuna"],
     imageUrl: nlp,
+    url: null,
   },
   {
     title: "Nobodies",
@@ -113,6 +114,7 @@ export const projectsData = [
       "My passion project. A deep CRPG set in an arcane-punk setting. Ongoing.",
     tags: ["Unreal", "C++"],
     imageUrl: nobodies,
+    url: null,
   },
   {
     title: "Yolla",
@@ -120,6 +122,7 @@ export const projectsData = [
       "Worked fullstack on our capstone project that sugested the optimal cargo firm for any package to be sent from location A to B in Turkey.",
     tags: ["Python", "FastAPI", "React", "Google Maps API", "PostgreSQL"],
     imageUrl: yolla,
+    url: "https://github.com/yolla-tech/yolla-backend",
   },
   {
     title: "Campus Connect",
@@ -127,6 +130,7 @@ export const projectsData = [
       "CampusConnect is a social media platform for Bilkent University students. It enables effective management of lost & found items, borrowings, secondhand sales, and donations across the campus.",
     tags: ["Flutter", "Dart"],
     imageUrl: campus_connect,
+    url: "https://github.com/Sardter/campus_connect_frontend",
   },
   {
     title: "Bilart",
@@ -134,6 +138,7 @@ export const projectsData = [
       "Developed a semi-ORM like backend architecture that took api requests and translated it direclty to raw SQL for our Database course for fun.",
     tags: ["Python", "FastAPI", "Postgres", "SQL"],
     imageUrl: bilart,
+    url: "https://github.com/Sardter/campus_connect_frontend",
   },
   {
     title: "VR Circuit Simulator",
@@ -141,6 +146,7 @@ export const projectsData = [
       "Worked on a unity based virtual reality game that simulated the breadboard circuitry dynamicly.",
     tags: ["Unity", "C#"],
     imageUrl: vr,
+    url: null,
   },
   {
     title: "ToGather",
@@ -148,6 +154,7 @@ export const projectsData = [
       "Co-Founded an event based app that utilizes geolocation for dynamic showcase of nearby events. Developed the mobile app.",
     tags: ["Flutter", "Firebase", "Dart", "Python", "FastAPI", "React", "Google Maps API", "PostgreSQL"],
     imageUrl: togather,
+    url: "https://github.com/Sardter/ToGather",
   },
   {
     title: "Bilcant",
@@ -155,6 +162,7 @@ export const projectsData = [
       "I lead a team to develop a RPG game simulating the Campus Life of Bilkent University for a course project",
     tags: ["Java", "LibGDX"],
     imageUrl: bilcant,
+    url: "https://github.com/Sardter/Bilcan-t",
   },
 ] as const;
 
